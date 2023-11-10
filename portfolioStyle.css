@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+.banner {
+    border-top: solid white;
+    border-bottom: solid white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+a {
+    justify-self: center;
+    font-size: xx-large;
+    color: greenyellow;
+}
