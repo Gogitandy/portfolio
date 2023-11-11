@@ -1,12 +1,18 @@
 body {
     background-color: black;
 }
+.outter {
+    border: solid gray;
+    border-width: 15px;
+}
 .banner {
     border-top: solid white;
     border-bottom: solid white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
+    margin: 10px;
+    border-width: 10px;
 }
 a {
     justify-self: center;
